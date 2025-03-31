@@ -27,13 +27,13 @@ async def start(bot: Client, msg: Message):
     me = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""<b>𝐇𝐞𝐲 {msg.from_user.mention}🍷,\n\nɪ ᴀᴍ {me},\nᴛʀᴜsᴛᴇᴅ 𝗦𝗧𝗥𝗜𝗡𝗚 𝗚𝗥𝗡𝗘𝗥𝗔𝗧𝗢𝗥 ʙᴏᴛ.ғᴜʟʟʏ sᴀғᴇ & sᴇᴄᴜʀᴇ.\nɴᴏ ᴀɴʏ ᴇʀʀᴏʀ\n\nMade With By : [VJ Botz](https://t.me/VJ_Botz) !</b>""",
+        text=f"""<b>𝐇𝐞𝐲 {msg.from_user.mention}🍷,\n\nɪ ᴀᴍ {me},\nᴛʀᴜsᴛᴇᴅ 𝗦𝗧𝗥𝗜𝗡𝗚 𝗚𝗥𝗡𝗘𝗥𝗔𝗧𝗢𝗥 ʙᴏᴛ.ғᴜʟʟʏ sᴀғᴇ & sᴇᴄᴜʀᴇ.\nɴᴏ ᴀɴʏ ᴇʀʀᴏʀ\n\nMade With By : [𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕](https://t.me/Indian_MV) !</b>""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(text="⚡ Generate String Session ⚡", callback_data="generate")
             ],[
-                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/India_Botz_Disscussion"),
-                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/India_Botz")
+                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/Indian_MV_Group"),
+                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/Indian_MV")
             ]]
         )
     )
@@ -53,8 +53,8 @@ async def chk(bot : Client, cb : CallbackQuery):
             [[
                 InlineKeyboardButton(text="⚡ Generate String Session ⚡", callback_data="generate")
             ],[
-                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/India_Botz_Disscussion"),
-                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/India_Botz")
+                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/Indian_MV_Group"),
+                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/Indian_MV")
             ]]
         )
     )
